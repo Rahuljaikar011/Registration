@@ -15,7 +15,7 @@ app.use(cors()); // <-- Enable CORS for all routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: "http://localhost:5173", // your frontend URL
+  origin: "https://fancy-twilight-1c934d.netlify.app/", // your frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
